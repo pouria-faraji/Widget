@@ -2,6 +2,7 @@
     package="com.pouria.widget">
 
     <application
+        android:name=".Application.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,5 +16,9 @@
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/widget_info" />
         </receiver>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="39b2899c4f3dd939ad3f445eb61a9fd9fb4a4bab" />
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
