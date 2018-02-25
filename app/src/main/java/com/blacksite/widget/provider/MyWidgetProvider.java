@@ -1,4 +1,4 @@
-package com.pouria.widget.provider;
+package com.blacksite.widget.provider;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;

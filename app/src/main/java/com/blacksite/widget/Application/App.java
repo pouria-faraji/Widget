@@ -1,4 +1,4 @@
-package com.pouria.widget.Application;
+package com.blacksite.widget.Application;
 
 import android.app.Application;
 import com.crashlytics.android.Crashlytics;
